@@ -41,7 +41,7 @@ void PrintChangeArray(int[,] array)
         {
             if (i % 2 == 0 && j % 2 == 0)
             {
-                Console.Write($"{array[i, j] * array[i, j]}  ");                
+                Console.Write($"{array[i, j] * array[i, j]}  ");
             }
             else
             {
